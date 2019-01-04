@@ -186,7 +186,7 @@ function IndexActivity(id, object, indexname){
 	id: id,
 	body: object
     };
-    params.parent = "noresource";
+    // params.parent = "noresource";
     client.create(params, function (error, response) {
 	if (error){
 	    console.log("Error when indexing "+error);
